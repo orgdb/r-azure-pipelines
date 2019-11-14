@@ -40,3 +40,7 @@ resources:
 jobs:
   - template: azure-tidyverse.yml@r-azure-pipelines
 ```
+
+# This a forked and modified on follwing things
+1. [Only testing on 3.5 or higher R versions.](095120d4cdbdea6dbdda30e446c13cd3d8b82c59)
+2. [Wanrings are not treated as erros.](6806447f5eb98d787056b64cbfecfae5c128e1fe)
